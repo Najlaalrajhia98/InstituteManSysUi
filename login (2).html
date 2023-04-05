@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sign In Form</title>
+		<link rel="stylesheet" href="login (2).Css" />
+		<script
+			src="https://kit.fontawesome.com/30137e6823.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<h1>Institute Management System</h1>
+			<div class="form-box">
+				<h2>Sign In</h2>
+				<form>
+					<div class="input-group">
+						<div class="input-field">
+							<i class="fa-solid fa-user"></i>
+							<input type="text" placeholder="User name" id="username" required />
+						</div>
+						<div class="input-field">
+							<i class="fa-solid fa-lock"></i>
+							<input type="password" placeholder="Password" id="password" required />
+						</div>
+					</div>
+					<div class="btn-filed">
+						<input type="submit" value="Login" />
+					</div>
+						<script>
+							// retrieve the form element and add a submit event listener
+							document
+								.querySelector("form")
+								.addEventListener("submit", function (event) {
+									event.preventDefault(); // prevent the default form submission behavior
+
+									// retrieve the values entered in the Username and Password fields
+									const username = document.getElementById("username").value;
+									const password = document.getElementById("password").value;
+
+									localStorage.setItem("username", username);
+									localStorage.setItem("password", password);
+
+									// submit the username and password to the API endpoint
+									fetch("http://localhost:8080/api/Students", {
+										method: "POST",
+										headers: {
+											"Content-Type": "application/json",
+											Authorization: "Basic " + btoa(username + ":" + password),
+										},
+										body: JSON.stringify({
+											username,
+											password,
+										}),
+									})
+										.then((response) => {
+											if (response.ok) {
+												// redirect the user to a new page
+												window.location.href = "main.html";
+											} else {
+												// display an error message to the user
+												throw new Error(
+													"Incorrect username or password. Please try again."
+												);
+											}
+										})
+										.catch((error) => {
+											alert(error.message);
+										});
+								});
+						</script>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
