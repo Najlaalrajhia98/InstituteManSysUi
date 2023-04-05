@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Institute Management System</title>
+	<link rel="stylesheet" href="Main (2).css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="Main.png" alt="Institute Management System">
+		</div>
+	       </header>
+        <main>
+            <div class="sidebar">
+                <ul>
+                    <li class="student">
+                        <a href="#">Manage Students</a>
+                        <ul class="submenu">
+                            <li><a href="#" id="create-student">Create Student</a></li>
+                            <li><a href="#" id="update-student">Update Student</a></li>
+                            <li><a href="#" id="delete-student">Delete Student</a></li>
+                            <li><a href="#" id= "get-all-students">Get All Students</a></li>
+                            <li><a href="#" type="submit" id="logout">Log out </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+		<div class="content">
+			<h1>Welcome to Institute Management System</h1>
+			<p>This is an Institue Management System That allows users to make CRUD Operations </p>
+            <!-- Create student Create form -->
+          <div class="container">
+			<div class="create-student-form-container" style="display:none">
+				<h2>Create Student Form</h2>
+				<form id="create-student-form">
+					<div class="form-group">
+						<label for="name">Name:</label>
+						<input type="text" id="name" name="name" required>
+					</div>
+					<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" required>
+					</div>
+					<button type="submit">Create Student</button>
+				</form>
+                <div id="message" class="message" style="display:none;"></div>
+            </div>
+                      <!-- Create student Update form -->
+            <div class="update-student-form-container" style="display: none;">
+                <h2>Update Student Form</h2>
+                <form id="update-student-form">
+                    <div class="form-group">
+                    <label for="update-id">ID:</label>
+                    <input type="text" id="update-id" name="id"  required>
+                  </div>
+                  <div class="form-group">
+                    <label for="update-name">Name:</label>
+                    <input type="text" id="update-name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="update-email">Email:</label>
+                    <input type="email" id="update-email" name="email" required>
+                  </div>
+                  <button type="submit">Update Student</button>
+                </form>
+                <div id="update-message" class="update-message" style="display:none;"></div>
+              </div>
+                        <!-- Create student Delete form -->
+              <div class="delete-student-form-container" style="display: none;">
+                <h2>Delete Student Form</h2>
+                <form id="delete-student-form">
+                    <div class="form-group">
+                    <label for="delete-id">ID:</label>
+                    <input type="text" id="delete-id" name="id"  required>
+                  <button type="submit">Delete Student</button>
+                </form>
+                <div id="delete-message" class="delete-message" style="display:none;"></div>
+              </div>
+          </div>
+               <!-- Get students form -->
+               <div class="get-student-form-container" style="display: none;">
+                <h2> All Students Avaliable </h2>
+                <form id="get-student-form">
+                    <div id="student-list">
+                        <!-- content for student list goes here -->
+                    </div>
+                    <div class="form-group">
+                </form>
+               </div>
+              
+			</div>
+		</div>
+	</main>
+	<script src="Main (2).js"></script>
+</body>
+</html>
