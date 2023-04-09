@@ -1,0 +1,45 @@
+2023-04-05 07:49:56.753 INFO  c.t.I.InstitueManagmentSysApplication - Starting InstitueManagmentSysApplication using Java 19.0.1 with PID 2616 (C:\Users\LAP-7\Documents\SpringBoot\InstitueManagmentSys\target\classes started by LAP-7 in C:\Users\LAP-7\Documents\SpringBoot\InstitueManagmentSys)
+2023-04-05 07:49:56.761 INFO  c.t.I.InstitueManagmentSysApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-05 07:49:58.090 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-05 07:49:58.107 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-05 07:49:58.108 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-05 07:49:58.109 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-05 07:49:58.206 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-05 07:49:58.207 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1383 ms
+2023-04-05 07:49:58.739 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@430b2699, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67536ae0, org.springframework.security.web.context.SecurityContextHolderFilter@5a034157, org.springframework.security.web.header.HeaderWriterFilter@204abeff, org.springframework.web.filter.CorsFilter@6413d7e7, org.springframework.security.web.authentication.logout.LogoutFilter@ba17be6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@575b5f7d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1391af3b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3762c4fc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d16be4f, org.springframework.security.web.access.ExceptionTranslationFilter@7a45d714, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b63e6ad]
+2023-04-05 07:49:58.896 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-05 07:49:58.959 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-05 07:49:58.973 INFO  c.t.I.InstitueManagmentSysApplication - Started InstitueManagmentSysApplication in 2.718 seconds (process running for 3.502)
+2023-04-05 07:50:25.532 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-05 07:50:25.533 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-05 07:50:25.535 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-04-05 16:58:06.690 INFO  c.t.I.InstitueManagmentSysApplication - Starting InstitueManagmentSysApplication using Java 19.0.1 with PID 12980 (C:\Users\LAP-7\Documents\SpringBoot\InstitueManagmentSys\target\classes started by LAP-7 in C:\Users\LAP-7\Documents\SpringBoot\InstitueManagmentSys)
+2023-04-05 16:58:06.692 INFO  c.t.I.InstitueManagmentSysApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-05 16:58:07.793 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-05 16:58:07.803 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-05 16:58:07.804 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-05 16:58:07.804 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-05 16:58:07.914 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-05 16:58:07.914 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1180 ms
+2023-04-05 16:58:08.378 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@748ac6f3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68f6e55d, org.springframework.security.web.context.SecurityContextHolderFilter@6af91cc8, org.springframework.security.web.header.HeaderWriterFilter@4d68b571, org.springframework.web.filter.CorsFilter@6fff46bf, org.springframework.security.web.authentication.logout.LogoutFilter@7af3874e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@60d6fdd4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@330c1f61, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37d28f02, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1835dc92, org.springframework.security.web.access.ExceptionTranslationFilter@696b4a95, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3bec5821]
+2023-04-05 16:58:08.510 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-05 16:58:08.528 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-05 16:58:08.538 INFO  c.t.I.InstitueManagmentSysApplication - Started InstitueManagmentSysApplication in 2.276 seconds (process running for 3.135)
+2023-04-05 16:58:36.578 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-05 16:58:36.578 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-05 16:58:36.578 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-04-05 17:15:23.276 INFO  c.t.I.InstitueManagmentSysApplication - Starting InstitueManagmentSysApplication using Java 19.0.1 with PID 15416 (C:\Users\LAP-7\Documents\SpringBoot\InstitueManagmentSys\target\classes started by LAP-7 in C:\Users\LAP-7\Documents\SpringBoot\InstitueManagmentSys)
+2023-04-05 17:15:23.278 INFO  c.t.I.InstitueManagmentSysApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-05 17:15:24.342 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-05 17:15:24.353 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-05 17:15:24.354 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-05 17:15:24.354 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-05 17:15:24.438 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-05 17:15:24.438 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1102 ms
+2023-04-05 17:15:24.857 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1f939a0f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45658133, org.springframework.security.web.context.SecurityContextHolderFilter@1f67761b, org.springframework.security.web.header.HeaderWriterFilter@4483d35, org.springframework.web.filter.CorsFilter@430b2699, org.springframework.security.web.authentication.logout.LogoutFilter@16a35bd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@361abd01, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f4ba1ae, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1391af3b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67536ae0, org.springframework.security.web.access.ExceptionTranslationFilter@23a918c7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a53f215]
+2023-04-05 17:15:24.959 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-05 17:15:25.007 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-05 17:15:25.017 INFO  c.t.I.InstitueManagmentSysApplication - Started InstitueManagmentSysApplication in 2.12 seconds (process running for 2.789)
+2023-04-05 17:15:35.902 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-05 17:15:35.903 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-05 17:15:35.904 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
